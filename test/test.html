@@ -1,0 +1,114 @@
+<html>
+<head>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src="jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script>
+function musicPlay()
+{
+ document.getElementById("jokerMusic").play();
+}
+function batPlay()
+{
+ document.getElementById("batMusic").play();
+}
+function banePlay()
+{
+ document.getElementById("baneMusic").play();
+}
+</script>
+<title></title>
+</head>
+
+<body>
+
+
+<nav >
+<div class="dropdown" style="float:left;" >
+<img id="logo" src="https://seeklogo.com/images/B/Batman-logo-F8295E46F2-seeklogo.com.png">
+
+<div class="dropdown-content">
+<a href="#" style="color:black;margin-left:20px;font-size:30px;float:none;"  onMouseOver="this.style.color='#0F0'"onMouseOut="this.style.color='black'">HOME</a></br>
+<a href="justice.html" style="color:black;margin-left:20px;font-size:30px;" onMouseOver="this.style.color='#0F0'"onMouseOut="this.style.color='black'">LEAGUE</a>
+<a style="color:black;margin-left:20px;font-size:30px; " onMouseOver="this.style.color='#0F0'"onMouseOut="this.style.color='black'">ABOUT</a>
+<a style="color:black;margin-left:20px;font-size:30px; " onMouseOver="this.style.color='#0F0'"onMouseOut="this.style.color='black'">CONTACT</a>
+</div>
+</div>
+<div id="nav2" style="height:120px;widht:100%;color:white;margin-left:500px;font-size:50px;">
+
+BATMANOLOGY
+
+</div>
+<div id="nav3" >
+<a href="#"> HOME</a>
+<a href="file:///C:/Users/Z003U8UW/Desktop/test/justice.html"> LEAGUE</a>
+<a href="#"> ABOUT</a>
+<a href="#"> CONTACT</a>
+</div>
+</nav>
+<div id="firstSec">
+<div id="laside">
+<div id="joker">
+<img id="jokerpic"  src="https://vignette.wikia.nocookie.net/scribblenauts/images/1/18/Joker_DC.png/revision/latest?cb=20141026065923" onclick="musicPlay()">
+</div>
+<div id="bane">
+<img id="banepic" src="https://pre00.deviantart.net/2f28/th/pre/f/2016/242/1/4/tdkr_dark_knight_rises_bane_png_transparent_promo_by_paintpot2-daftbkg.png" onclick="banePlay()">
+</div>
+</div>
+
+
+<div id="cside">
+<img id="cpic" src="cover.png">
+</div>
+
+
+<div id="raside">
+<div id="batsy">
+<img id="batpic" src="https://orig00.deviantart.net/effd/f/2010/253/e/2/batman___the_animated_series_by_riddermark-d2ygcah.png" onclick="batPlay()">
+</div>
+</div>
+</div>
+
+
+<div id="secondSec">
+
+
+
+<iframe src="https://www.youtube.com/embed/rGQUKzSDhrg?enablejsapi=1" frameborder="0" id="video" width="900" height="600" style="margin-top:140px;margin-left:300px;"></iframe>
+
+
+</div>
+
+
+
+
+
+
+
+
+<footer>
+<audio controls id="myMusic">
+  
+  <source  src="dark_knight_rises.mp3" type="audio/mpeg" volume=0.5>
+
+</audio>
+
+<audio controls id="jokerMusic">
+  
+  <source  src="smile.mp3" type="audio/mpeg">
+
+</audio>
+<audio controls id="batMusic">
+  
+  <source  src="batman.mp3" type="audio/mpeg">
+
+</audio>
+<audio controls id="baneMusic">
+  
+  <source  src="darkness.mp3" type="audio/mpeg">
+
+</audio>
+</footer>
+
+</body>
+</html>

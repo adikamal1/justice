@@ -1,0 +1,149 @@
+<html>
+<head>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src="justicequery.js"></script>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<script>
+function musicPlay()
+{
+ document.getElementById("supermanMusic").play();
+}
+function batPlay()
+{
+ document.getElementById("batMusic").play();
+}
+function wonderPlay()
+{
+ document.getElementById("wonderMusic").play();
+}
+
+function flashPlay()
+{
+ document.getElementById("flshMusic").play();
+}
+
+
+</script>
+<title></title>
+</head>
+
+<body>
+
+
+<nav >
+<div class="dropdown" style="float:left;" >
+<img id="logo" src="http://static.tvtropes.org/pmwiki/pub/images/justice_league_dceu.png">
+
+<div class="dropdown-content">
+<a href="justice.html" style="margin-left:40px;">HOME</a>
+<a href="test.html" style="margin-left:40px;">BATSY</a>
+<a href="cartel.html" style="margin-left:40px;">ABOUT</a>
+<a style="margin-left:40px;">CONTACT</a>
+</div>
+</div>
+<div id="nav2" style="height:120px;widht:100%;color:white;margin-left:600px;font-size:60px;">
+JUSTICE LEAGUE
+
+
+</div>
+<div id="nav3" >
+<a href="test.html"> HOME</a>
+<a href="justice.html"> BATSY</a>
+<a href="cartel.html"> ABOUT</a>
+<a href="#"> CONTACT</a>
+</div>
+</nav>
+
+<div id="short">
+
+<img id="loc1" src="http://static.tvtropes.org/pmwiki/pub/images/justice_league_dceu.png" onclick="l1()">
+<img id="loc2" src="http://www.pngmart.com/files/2/Superman-Logo-PNG-Image.png" onclick="l2()">
+<img id="loc3" src="http://www.freepngimg.com/thumb/batman/3-2-batman-logo-png-thumb.png" onclick="l3()">
+<img id="loc4" src="https://www.firstcomicsnews.com/wp-content/uploads/2016/11/Wonder-Woman-logo-600x257.png" onclick="l4()">
+<img id="loc5" src="http://www.pngonly.com/wp-content/uploads/2017/06/Flash-Logo-PNG.png" onclick="l5()">
+</div>
+<div id="introd">
+<div style="height:300px;"></div>
+<div id="tet" style="font-size:200px;margin-left:240px;">JUSTICE LEAGUE</div>
+
+</div>
+
+<div id="firstSec">
+<iframe src="https://www.youtube.com/embed/FH3eFGSxgq4?enablejsapi=1" frameborder="0" id="video" width="900" height="600" style="margin-top:140px;margin-left:300px;"></iframe>
+
+
+</div>
+
+
+
+<div id="secondSec">
+
+
+<div id="superman">
+<img id="supermanpic"  src="http://www.pngmart.com/files/2/Superman-Transparent-PNG.png" onclick="musicPlay()">
+</div>
+
+
+
+</div>
+<div id="thirdSec">
+
+<div id="batsy">
+<img id="batpic" src="http://www.pngmart.com/files/2/Batman-PNG-Transparent-Image.png" onclick="batPlay()">
+</div>
+
+</div>
+<div id="fourthSec">
+
+<div id="wonder">
+<img id="wonderpic" src="https://img00.deviantart.net/af14/i/2017/216/4/5/wonder_woman_gal_gadot_png_by_gasa979-dbhfnt4.png" onclick="wonderPlay()">
+</div>
+
+</div>
+<div id="fifthSec">
+
+
+<div id="flsh">
+<img id="flshpic" src="https://pre00.deviantart.net/9ac8/th/pre/i/2017/213/3/4/the_flash_png_by_showtimeeditz-dbijpge.png" onclick="flshPlay()">
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<footer>
+<audio controls id="myMusic">
+  
+  <source  src="league.mp3" type="audio/mpeg">
+
+</audio>
+
+<audio controls id="supermanMusic">
+  
+  <source  src="super.mp3" type="audio/mpeg">
+
+</audio>
+<audio controls id="batMusic">
+  
+  <source  src="dark_knight_rises.mp3" type="audio/mpeg">
+
+</audio>
+<audio controls id="wonderMusic">
+  
+  <source  src="wonder.mp3" type="audio/mpeg">
+
+</audio>
+<audio controls id="flshMusic">
+  
+  <source  src="flash.mp3" type="audio/mpeg">
+
+</audio>
+</footer>
+
+</body>
+</html>

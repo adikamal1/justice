@@ -1,0 +1,258 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+
+nav{
+background-color:black;
+height:180px;
+width:100%;
+border-style: solid;
+    border-width: 5px;
+border-color:white;
+ position: fixed;
+}
+
+#loc1
+{
+ position: fixed;
+margin-top:220px;
+margin-left:170px;
+
+height:50px;
+}
+
+#loc2
+{
+ position: fixed;
+margin-top:300px;
+margin-left:165px;
+
+height:40px;
+}
+#loc3
+{
+ position: fixed;
+margin-top:355px;
+margin-left:170px;
+
+height:50px;
+}
+#loc4
+{
+ position: fixed;
+margin-top:435px;
+margin-left:170px;
+
+width:60px;
+}
+#loc5
+{
+ position: fixed;
+margin-top:480px;
+margin-left:180px;
+
+height:50px;
+}
+#logo
+{
+  position: relative;
+
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    
+    height:300px;
+    animation-name: example;
+    animation-duration: 6s;  
+}
+
+#logo:hover
+{
+ transform: rotate(360deg);
+}
+
+
+
+@keyframes example {
+ 
+  0%   {-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);}
+   
+  
+ 
+   100%  {-webkit-transform: scaleX(+1);
+    transform: scaleX(+1);}
+}
+
+.dropdown{
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+margin top:50px;
+    display: none;
+    position: absolute;
+    background-color: #0a0000;
+    min-width: 145px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+color:white;
+font-family:Antonio;
+font-size:20px;
+}
+
+.dropdown:hover .dropdown-content {
+ 
+    display: block;
+}
+
+
+a{
+color:white;
+font-size: 40px;
+font-style:bold;
+font-family:Antonio;
+margin-top:100px;
+margin-left:160px;
+text-decoration:none;
+
+}
+
+a:hover
+{
+color:#59aad9;
+}
+#introd
+{
+width:85%;
+
+background-color:#191919;
+height:800px;
+font-family:Antonio;
+font-size:50px;
+text-align:center;
+color:white;
+
+}
+#short
+{
+float:right;
+width:15%;
+background-color:#191919;
+height:800px;
+
+}
+#firstSec
+{
+float:none;
+height:1000px;
+background-image:url("https://images7.alphacoders.com/463/463447.jpg");
+}
+
+
+#supermanpic
+{
+margin-top:250px;
+margin-left:850px;
+height:500px;
+}
+
+#supermanpic:hover
+{
+-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+height:250px;
+}
+#wonderpic
+{
+
+margin-top:380px;
+margin-left:400px;
+height:500px;
+}
+
+#wonderpic:hover
+{
+-webkit-transform: scaleX(-1);
+    transform: scaleX(+1);
+height:250px;
+}
+
+#batpic
+{
+
+margin-top:300px;
+margin-left:200px;
+height:500px;
+}
+
+#batpic:hover
+{
+-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+height:300px;
+}
+
+
+#flshpic
+{
+
+margin-top:300px;
+margin-left200px;
+height:500px;
+}
+
+#flsh:hover
+{
+-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+height:250px;
+}
+
+footer
+{
+height:80px;
+width:100%;
+background-color:grey;
+float:left;
+}
+
+#nav2
+{
+font-family:Antonio;
+}
+
+
+
+
+#secondSec
+{
+height:1000px;
+background-image:url("http://bozhuwallpaper.com/img/superman-logo-wallpaper-full-hd-As-Wallpaper-HD.jpg");
+}
+
+#thirdSec
+{
+height:1000px;
+background-image:url("http://www.technocrazed.com/wp-content/uploads/2015/11/batman-logo-wallpaper-for-desktop-1080p-130.jpg");
+}
+
+#fourthSec
+{
+height:1000px;
+background-image:url("http://idesktopwallpaper.com/wp-content/uploads/2017/02/wonder-woman-cartoon-wallpaper.jpg");
+}
+
+#fifthSec
+{
+height:1000px;
+background-image:url("https://wallpaperscraft.com/image/flash_logo_dc_comic_106043_1920x1080.jpg");
+}
